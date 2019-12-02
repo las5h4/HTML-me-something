@@ -58,7 +58,8 @@ h1 {
     text-indent: 5%;
 }
 .episode {
-    margin-left: 80px;
+    color: blanchedalmond;
+    
 }
 .episodeImage {
     display: inline-block;
@@ -66,9 +67,15 @@ h1 {
     width: 18%
 }
 .episodeText {
+    text-indent: 1em;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    margin-left: 5%;
     margin-right: 3%;
     display: inline-block;
-    width: 78%
+    width: 73%
+    
+    
 }
 #stormyCliff {
     margin-right: 50px;
