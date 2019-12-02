@@ -51,6 +51,10 @@ h1 {
     background-image: url("drone.jpg");
     height: 500px;
     background-size: cover;
+    color: blanchedalmond;
+    font-family: 'Audiowide';
+    font-size: 5em;
+    text-indent: 5%;
 }
 .episode {
     margin-left: 80px;
@@ -61,6 +65,7 @@ h1 {
     width: 18%
 }
 .episodeText {
+    margin-right: 50px;
     display: inline-block;
     width: 78%
 }
