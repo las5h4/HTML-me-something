@@ -68,7 +68,7 @@ h1 {
 
 .episode {
     color: blanchedalmond;
-    
+    font-family: 'Abel';
 }
 .episodeImage {
     display: inline-block;
@@ -76,6 +76,7 @@ h1 {
     width: 18%
 }
 .episodeText {
+    font-family: 'Abel';
     text-indent: 2em;
     font-size: 1.3em;
     line-height: 1.6em;
@@ -88,9 +89,9 @@ h1 {
     
 }
 #stormyCliff {
-    margin-right: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 300px;
     float: left
 }
