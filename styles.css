@@ -47,16 +47,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-h1 {
+#titleBox {
+    position: relative;
     background-image: url("drone.jpg");
-    height: 500px;
+    min-height: 500px;
     background-size: 100% 100%;
     color: blanchedalmond;
     font-family: 'Audiowide';
-    font-size: 5em;
-    text-indent: 5%;
 }
+h1 {   
+    font-size: 5em;
+    margin-left: 5%;
+}
+#subHeader {
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    font-size: 3em;
+}
+
 .episode {
     color: blanchedalmond;
     
@@ -67,9 +76,10 @@ h1 {
     width: 18%
 }
 .episodeText {
-    text-indent: 1em;
+    text-indent: 2em;
     font-size: 1.3em;
     line-height: 1.6em;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 3%;
     display: inline-block;
@@ -83,4 +93,8 @@ h1 {
     margin-bottom: 30px;
     width: 300px;
     float: left
+}
+footer {
+    text-align: right;
+    color: blanchedalmond;
 }
